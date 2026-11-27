@@ -1,0 +1,4 @@
+/target
+# Puzzle inputs are personal; the Advent of Code author asks that they not be published.
+/inputs
+.env

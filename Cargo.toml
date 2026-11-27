@@ -1,0 +1,18 @@
+[workspace]
+resolver = "3"
+# `aoc` holds the shared helpers and the new-day/solve tools. Each year is its own crate;
+# `cargo new-day` creates it with `cargo new`, which adds it here.
+members = ["aoc"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+# Newest stable Rust; raise this when a new release is installed.
+rust-version = "1.99"
+
+# Puzzles are often brute-force heavy, so keep tests and debug runs reasonably fast.
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+debug = "line-tables-only"
