@@ -5,3 +5,5 @@ edition.workspace = true
 rust-version.workspace = true
 
 [dependencies]
+itertools = "0.15.0"
+rustc-hash = "2.1.3"

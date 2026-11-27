@@ -4,6 +4,8 @@ new-day = "run --quiet --package aoc --bin new-day --"
 # cargo solve [year] day       run a day's solution in release mode
 # (built in release too, so the `aoc` library is compiled once for both)
 solve = "run --release --quiet --package aoc --bin solve --"
+# cargo submit [year] [day] part answer   send an answer and print the reply
+submit = "run --release --quiet --package aoc --bin submit --"
 
 [env]
 # The workspace root as an absolute path, read by `aoc::workspace_root`.

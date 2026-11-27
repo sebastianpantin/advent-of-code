@@ -2,7 +2,7 @@
 resolver = "3"
 # `aoc` holds the shared helpers and the new-day/solve tools. Each year is its own crate;
 # `cargo new-day` creates it with `cargo new`, which adds it here.
-members = ["aoc"]
+members = ["2026","aoc"]
 
 [workspace.package]
 version = "0.1.0"

@@ -18,8 +18,7 @@ fn main() {
 mod tests {
     use super::*;
 
-    const EXAMPLE: &str = "\
-";
+    const EXAMPLE: &str = r#"EXAMPLE_TEXT"#;
 
     #[test]
     fn part1_example() {

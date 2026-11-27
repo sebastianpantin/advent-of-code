@@ -1,0 +1,8 @@
+[package]
+name = "aoc2026"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+aoc = { version = "0.1.0", path = "../aoc" }
